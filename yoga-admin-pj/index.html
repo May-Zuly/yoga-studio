@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+</head>
+<body>
+
+
+
+
+    <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+    <script>
+    var xValues = ["Iyengar", "Basic", "kundalini", "Advanced"];
+    var yValues = [55, 49, 44, 24];
+    var barColors = [
+      "#b91d47",
+      "#00aba9",
+      "#2b5797",
+      "#e8c3b9"
+    ];
+    
+    new Chart("myChart", {
+      type: "pie",
+      data: {
+        labels: xValues,
+        datasets: [{
+          backgroundColor: barColors,
+          data: yValues
+        }]
+      },
+      options: {
+        title: {
+          display: true,
+          text: "Millie Yoga Training Progress in 2024"
+        }
+      }
+    });
+    </script>
+</body>
+</html>
