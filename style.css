@@ -420,6 +420,9 @@ a.text-light:focus {
   color: #cbd3da;
 }
 
+.ftco-no-pt {
+  padding-top: 0 !important; }
+
 /* yoga classes ================================================================================*/
 .classes {
   margin-bottom: 30px;
@@ -1293,5 +1296,56 @@ a:hover {
         font-size: 11px; }
   .tagcloud a:hover {
           border: 1px solid #000; }
+
+/* contact.html //contact-section================================================== */
+
+.contactus-section .contact-info {
+  background: #3d435c; }
+  .contactus-section .contact-info h2 {
+    color: #fff; }
+  .contactus-section .contact-info p {
+    color: rgba(255, 255, 255, 0.8); }
+    .contactus-section .contact-info p span {
+      font-weight: 600;
+      color: #fff; }
+
+.contactus-form .form-group {
+  position: relative; }
+
+.contactus-form .form-control {
+  border: transparent !important;
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  height: 58px !important;
+  padding: 20px;
+  background: transparent !important;
+  color: rgba(0, 0, 0, 0.9) !important;
+  font-size: 13px;
+  border-radius: 0px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important; }
+  .contactus-form .form-control::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: rgba(0, 0, 0, 0.9); }
+  .contactus-form .form-control::-moz-placeholder {
+    /* Firefox 19+ */
+    color: rgba(0, 0, 0, 0.9); }
+  .contactus-form .form-control:-ms-input-placeholder {
+    /* IE 10+ */
+    color: rgba(0, 0, 0, 0.9); }
+  .contactus-form .form-control:-moz-placeholder {
+    /* Firefox 18- */
+    color: rgba(0, 0, 0, 0.9); }
+.contactus-form .form-control:focus, .contactus-form .form-control:active {
+    border-color: #ffb5b5 !important; }
+
+.contactus-form textarea.form-control {
+  height: inherit !important; }
+
+.block-9 .form-control {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  font-size: 15px; }
+
             
 
